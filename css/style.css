@@ -1,0 +1,222 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+*{box-sizing:border-box;}
+
+
+body{font-size: 13px; font-family: Arial, Helvetica, sans-serif;}
+p{line-height: 20px;}
+img { max-width:100%; display: block;}
+
+.section{width: 100%; float: left;}
+.container{max-width:1100px; width: 100%; margin: 0% auto; padding:0 15px;}
+.header {background-color:#202020;}
+.header .link{width: 20%; float: left; margin-top: 12px; border-left: solid 1px #555555; border-right: solid 1px #555555;}
+.header .logo img { display: inline-block;}
+.header .logo{width: 60%; float: left; text-align: center; margin-top: 5px;}
+.header .subscribe{width: 20%; float: left;}
+.header .subscribe li{float: left; margin-top: 12px;}
+.header .subscribe a{color: white; padding: 5px;}
+.header .link ul li {float: left;}
+.header .link a{color: white; padding: 10px; text-align: center;}
+.header .nav {width: 100%; float: left; text-align: center; margin-top: 10px;   border-top: solid 1px #555555;}
+.header .nav li{display: inline-block;}
+.header .nav a{color: white; padding: 10px 15px; display: block; border-bottom: solid transparent 2px; text-decoration: none;}
+.header .nav a:hover{ border-bottom: solid red 2px;}
+
+.notification {background-color:#151515; color: white;}
+.notification div{text-align: center;  padding: 7px 10px; display: block;}
+
+.banner {width: 100%; float: left; color: white; overflow: hidden;}
+.banner ul li{position: relative;}
+.banner ul li img{max-height: 900px;}
+.banner .nav{ position: absolute;
+
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 0;}
+.banner .flex-direction-nav{position: absolute; top: 50%; width: 100%;} 
+.banner .nav{margin-top: 50px; margin-bottom: 50px; text-shadow:1px 1px 2px #000000}
+.banner .nav h1{font-size: 40px; margin-bottom: 15px;}
+.banner .nav h5{font-size: 15px;}
+.banner .nav p{font-size: 15px; }
+
+.banner .nav .button{border-radius: 30px 10px; background-color: rgb(53, 3, 3); border: none; padding: 15px 32px; text-align: center;
+                   text-decoration: none; display: inline-block;font-size: 16px; margin: 4px 2px;
+                   cursor: pointer; color: white; margin-top: 20px;}
+.whats-new{background-image: url("../images/background2.jpg");}
+.whats-new .content{float: left; margin-top: 50px;}
+.whats-new .content a{ background-color:  #182047; border: none; padding: 15px 32px; text-align: center;
+                   text-decoration: none; display: inline-block;font-size: 16px; margin: 4px 2px;
+                   cursor: pointer; color: white; margin-top: 25px; margin-bottom: 70px; border-radius: 30px 10px;}
+.whats-new .content p{ color: black; margin-top: 15px ; font-size: 20px;}
+.whats-new .content img{float: left; margin-top: 40px;}
+.whats-new .content h1{ color: black; margin-bottom: 10px; font-size: 50px;}
+.whats-new .content h5{ color: black; margin-top: 140px; font-size: 25px; margin-bottom: 10px;}
+.owl-carousel .owl-nav { font-size: 50px;}
+.main-card img{width: 100%;}
+
+
+/* .home-demo .item {
+    background: #ff3f4d;
+}
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+} */
+
+
+
+.main-card .box {padding: 15px; margin-top: -50px; float: left; background-color: white; }
+.main-card .owl-carousel button span{font-size: 5rem;}
+.main-card .card{ margin: 1% ;}
+.main-card .card h1{ color: black; font-size: 14px;  min-height: 45px;}
+
+.news,.news .item {width: 100%; float: left; color: black;}
+.news .latest {width: 70% ; float: left; margin: 0 0 30px;}
+.news .item .figure { float: left; width: 45%; margin: 3%;}
+.news .latest .heading{ font-size: 25px; font-weight: bold; margin-left: 25px;}
+.news .content {float: left; width: 45%; margin-top: 20px; break-inside: auto;}
+.news .content p{ font-weight: bold; margin-top: 5px; margin-left: 10px;}
+.news .content h4{line-height: 30px;  float: left; font-weight: 300px; margin-top: 5px; font-size: 20px; padding: 15px 10px; }
+.news .recent {width: 30%; float: left;}
+.news .recent h1{ font-size: 25px;}
+.news .recent{margin-top: 40px;}
+.news .recent .item p{ font-size: 10px; margin-top: 5px;}
+.news .recent .item h5{ float: left;  padding-left: 10px;margin-top: 0px;display: block;width: 55%;}
+.news .recent .item img{float: left; width: 100%;}
+.news .recent .item .figure{width: 30%;}
+.news .recent .item .content{margin: 0%; width: 64%;} 
+.news .recent .item h4{padding: 0%; font-size: 13px; line-height: 20px;}
+.news .recent .item { float: left; margin-bottom: 1%;}
+.news .latest .load {width: 100%; float: left; text-align: center; margin-top: 30px; border-top: 1px solid gray;
+         padding-top: 20px;}
+.news .latest a{color: black; border-radius: 30px 10px;  border: 1px solid black; padding: 15px 32px;}
+
+.what-new {
+    background-image: url(../images/background3.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e6dcdb;
+}.what-new .content{float: left; margin-top: 50px;}
+.what-new .content a{ background-color:  #151515; border: none; padding: 15px 32px; text-align: center;
+                   text-decoration: none; display: inline-block;font-size: 16px; margin: 4px 2px;
+                   cursor: pointer; color: white; margin-top: 25px; margin-bottom: 70px; border-radius: 30px 10px;}
+.what-new .content p{ color: black; margin-top: 15px ; font-size: 20px;}
+.what-new .content h1{ color: black; margin-bottom: 10px; font-size: 50px;}
+.what-new .content h5{ color: black; margin-top: 140px; font-size: 25px; margin-bottom: 10px;}
+
+.card img{width: 100%;}
+.card .box {padding: 15px; margin-top: -50px; float: left; background-color: white; }
+.card .card{ margin: 1% ; }
+.card .card h1{ color: black; font-size: 14px;  min-height: 45px;}
+
+.redeem-banner{width: 100%; float: left; background-image: url("../images/background4.jpg" ); background-position:center; color: #ffffff;}
+.redeem-banner .navs {float: left; width: 50%; margin-bottom: 10%; margin-top: 10%;}
+.redeem-banner .navss{width: 50%; float: right; text-align: left; font-size: 30px;  margin-top: 12%;}
+.redeem-banner .navs .button{border-radius: 30px 10px; background-color:#8b0007; border: none; padding: 15px 32px; text-align: center;
+                   text-decoration: none; display: inline-block;font-size: 16px; margin: 4px 2px;
+                   cursor: pointer; color: white; margin-top: 20px;}
+.redeem-banner .navs h6{font-size: 15px;}
+
+.footer{ background-color: #151515;; color: white; float: left; width: 100%;}
+.footer h4{ font-weight: bold;}
+.footer .logo{width: 20%; float: left;margin-top: 10%; margin-bottom: 10%;}
+.footer .logo img{ height: 140px; }
+.footer .about{width: 20%; float: left; margin-top: 10%;}
+.footer .advertising{width: 20%; float: left; margin-top: 10%;}
+.footer .comics {float: left; width: 20%; margin-top: 8%;}
+.footer .comics .insider h4{ font-weight: bold;}
+.footer .comics .insider p{ font-size: 11px;}
+.footer .follow{width: 20%; float: left; margin-top: 8%; }
+.footer .social {width: 100%; float: left;}
+.footer .follow img{width: 40px; float: left;  margin: 0 10px 0 0;}
+.footer .list li{ margin-bottom: 10%;}
+
+
+@media(max-width:1200px){
+	
+	.news .latest,.news .recent { width:100%; margin:0 0 30px;}
+}
+
+
+
+@media(max-width:767px){
+    .footer { padding:0 0 30px;}
+    .footer .follow .item {
+        display: inline-block;
+    }
+    .footer .container > div {
+        width:25%;
+    }
+    .footer .follow {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width:640px){
+    .news .content,.news .item .figure,
+	.news .item .figure img,
+	.news .recent .item .figure,
+	.news .recent .item .content,
+	.redeem-banner .container div{ width:100%; margin:0; text-align:center;}
+     .footer .container > div {
+        width:100%;
+         text-align:center;
+         border-bottom:1px solid;
+         margin:20px 0px;
+         padding:20px 0px;
+    }
+     .footer .follow {
+        border: 0 !important;
+    }
+    .footer .logo img { margin:auto;}
+}
